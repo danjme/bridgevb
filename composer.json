@@ -1,5 +1,5 @@
 {
-    "name": "eld/bridgevb",
+    "name": "danjme/bridgevb",
     "description": "Laravel 4 and vBulletin 4 bridge for authentication services.",
     "license":"MIT",
     "keywords":["vbulletin", "laravel", "auth", "vb", "l4"],
