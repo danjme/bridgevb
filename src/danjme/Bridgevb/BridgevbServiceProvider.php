@@ -1,4 +1,4 @@
-<?php namespace Eld\Bridgevb;
+<?php namespace danjme\Bridgevb;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -18,7 +18,7 @@ class BridgevbServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->package('eld/bridgevb');
+        $this->package('danjme/bridgevb');
     }
 
     /**
@@ -28,7 +28,7 @@ class BridgevbServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app['config']->package('eld/bridgevb', 'eld/bridgevb', 'eld/bridgevb');
+        $this->app['config']->package('danjme/bridgevb', 'danjme/bridgevb', 'danjme/bridgevb');
 
         $this->app['bridgevb'] = $this->app->share(
             function ($app) {
