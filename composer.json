@@ -13,12 +13,12 @@
     ],
     "require": {
         "php": ">=5.3.0",
-        "illuminate/support": "4.1.x",
+        "illuminate/support": "4.2.x",
 	"phpunit/phpunit": "4.0.x"
     },
     "autoload": {
         "psr-0": {
-            "danjme\\Bridgevb": "src/"
+            "Danjme\\Bridgevb": "src/"
         }
     },
     "minimum-stability": "dev"

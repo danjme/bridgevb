@@ -1,4 +1,4 @@
-<?php namespace danjme\Bridgevb;
+<?php namespace Danjme\Bridgevb;
 
 use Illuminate\Support\ServiceProvider;
 

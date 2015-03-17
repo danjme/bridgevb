@@ -1,4 +1,4 @@
-<?php namespace danjme\BridgeVb;
+<?php namespace Danjme\BridgeVb;
 
 use Illuminate\Container\Container;
 use Illuminate\Support\Facades\DB;

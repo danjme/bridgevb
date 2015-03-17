@@ -4,11 +4,11 @@ vBulletin 4 bridge for Laravel 4
 
 This package is based off of the pperon/vbauth package and the vb_auth package for CodeIgnitor.
 
-Add `eld/bridgevb` as a requirement in composer.json:  
+Add `danjme/bridgevb` as a requirement in composer.json:  
 ```javascript
 {
 	"require": {
-		"eld/bridgevb": "1.*"
+		"danjme/bridgevb": "1.*"
 	}
 }
 ```
@@ -19,7 +19,7 @@ To use the package, add this line to your providers array contained in the app/c
 'providers' => array(
 				...
 				...
-				'Eld\Bridgevb\BridgevbServiceProvider',
+				'Danjme\Bridgevb\BridgevbServiceProvider',
 ),
 ```
 
@@ -28,13 +28,13 @@ In order to use the facade, add the following to your aliases array in app/confi
 'aliases' => array(
 				...
 				...
-				'Bridgevb'		  => 'Eld\Bridgevb\Facades\BridgeVb',
+				'Bridgevb'		  => 'Danjme\Bridgevb\Facades\BridgeVb',
 ),
 ```
 
 Configuration File:
 ===================
-The default configuration file is found in `vender/eld/bridgevb/src/config/config.php` but you should overwrite it with a `app/config/packages/eld/bridgevb/config.php` file.  
+The default configuration file is found in `vender/danjme/bridgevb/src/config/config.php` but you should overwrite it with a `app/config/packages/danjme/bridgevb/config.php` file.  
 
 The configuration file looks like:
 ```php
@@ -63,7 +63,7 @@ array(
 	),
 );
 ```
-You need to replace the following fields in the existing config file or the config file in `app/config/packages/eld/bridgevb/config.php` file to suit your setup: `connection`, `cookie_hash`, `cookie_prefix`, `db_prefix`, `db_prefix`, `forum_path`, and add your forum's user groups in the `user_groups` portion and customize which user info you'd like to fetch with the `user_columns` option.
+You need to replace the following fields in the existing config file or the config file in `app/config/packages/danjme/bridgevb/config.php` file to suit your setup: `connection`, `cookie_hash`, `cookie_prefix`, `db_prefix`, `db_prefix`, `forum_path`, and add your forum's user groups in the `user_groups` portion and customize which user info you'd like to fetch with the `user_columns` option.
 
 
 Exampe Usage:

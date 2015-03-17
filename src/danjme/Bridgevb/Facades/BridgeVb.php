@@ -1,4 +1,4 @@
-<?php namespace danjme\Bridgevb\Facades;
+<?php namespace Danjme\Bridgevb\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
