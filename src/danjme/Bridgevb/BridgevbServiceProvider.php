@@ -1,8 +1,8 @@
-<?php namespace Danjme\BridgeVb;
+<?php namespace Danjme\Bridgevb;
 
 use Illuminate\Support\ServiceProvider;
 
-class BridgeVbServiceProvider extends ServiceProvider
+class BridgevbServiceProvider extends ServiceProvider
 {
     /**
      * Indicates if loading of the provider is deferred.
