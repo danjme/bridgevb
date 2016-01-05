@@ -6,11 +6,6 @@
     "homepage":"https://github.com/danjme/bridgevb",
     "authors": [
         {
-            "name": "Eric Dattore",
-            "email": "eric.dattore@gmail.com",
-            "role": "Developer"
-        },
-        {
             "name": "Dan Jeffrey",
             "email": "dan@danj.me",
             "role": "Developer"
