@@ -1,24 +1,24 @@
 {
     "name": "danjme/bridgevb",
-    "description": "Laravel 4.2 and vBulletin 4.2 bridge for authentication services.",
+    "description": "Laravel 4 and vBulletin 4 bridge for authentication services.",
     "license":"MIT",
     "keywords":["vbulletin", "laravel", "auth", "vb", "l4"],
     "homepage":"https://github.com/danjme/bridgevb",
     "authors": [
         {
-            "name": "Dan Jeffrey",
-            "email": "dan@danj.me",
+            "name": "Eric L. D.",
+            "email": "edattore@gmail.com",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": ">=5.3.0",
-        "illuminate/support": "4.2.x",
-	"phpunit/phpunit": "4.0.x"
+        "php": ">=5.4.0",
+        "illuminate/support": "~4.2",
+	"phpunit/phpunit": "~4.0"
     },
     "autoload": {
         "psr-0": {
-            "danjme\\bridgevb": "src/"
+            "Danjme\\Bridgevb": "src/"
         }
     },
     "minimum-stability": "dev"
